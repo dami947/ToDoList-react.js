@@ -1,0 +1,16 @@
+.list {
+  padding-top: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  list-style: none;
+  border-top: 1px solid #000;
+}
+
+.done {
+  text-decoration: line-through;
+}

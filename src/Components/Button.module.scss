@@ -1,0 +1,17 @@
+@use '../colors' as colors;
+
+.btn {
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: colors.$mainColor;
+  background-color: transparent;
+  border: 1px solid colors.$mainColor;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s linear background-color, 0.2s linear color;
+
+  &:hover {
+    color: #fff;
+    background-color: colors.$mainColor;
+  }
+}
